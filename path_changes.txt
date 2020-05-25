@@ -1,0 +1,20 @@
+cnn_saver.py :
+Line 150, 153, 158, 159, 169, 204, 212 : Change to the desired destination
+150: Change to where you want to save the network variables
+153: Change to where you want to save the network
+158: Change to where you want to save the number of steps the network has run
+159: Change to where you want to save the accuracy
+169: Change to where you want the file logger
+204: Change to where you want to save the file that keeps track of the time required for each epoch
+212: Change to where you want to save the number of steps the network has run
+
+retriever.py :
+Line 9: Change to where you want to extract the training dataset from (Where you have actually saved the dataset)
+Line 10: Change to where you want to extract the testing dataset from (Where you have actually saved the dataset)
+
+tester.py:
+Line 153, 156, 166, 209: Change to the desired destination
+153: Change to where you want to extract the network variables from
+156: Change to where you want to save the testing accuracy
+166: Change to where you want the file logger
+209: Change to where you want to save the timer
